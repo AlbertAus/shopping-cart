@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ag-grid-community": "^21.1.0",
+    "ag-grid-react": "^21.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +27,19 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 safari version",
+      "last 1 ie version"
     ]
+  },
+  "devDependencies": {
+    "react-app-polyfill": "^1.0.4",
+    "react-dom": "^16.8.6",
+    "react-md": "^1.12.2",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux-devtools": "^3.5.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   }
 }
